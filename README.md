@@ -42,3 +42,15 @@ Improve the models recommendation by training a Deep Neural Network.
 
 
 ##### Contact and Further Information
+
+**Contact** bhalchandra.gajare@gmail.com
+
+**Further Information / Notes**
+1. Since the GTZAN dataset is quite large, the actual data files are not pushed to this github.
+2. To run the notebook, you have to do either of these options
+      a. Use the computed_features.csv, that I have generated from the actual dataset
+           OR
+      b. Clone this project, download the GTZAN dataset in the same folder as the notebook
+3. If you use option(a) above, you can run the model and get recommendataions, but the sections of the notebook that attempst to play the audio will not work as the audio's are not part of this github project
+4. It is highly recommended to go with option (b) if you would like to explore the inner workings of this notebook, you can re-genrate the features and train the model and do predictions.
+5. This also needs you to install libraries `librosa` and `libsndfile` in your development environment.
